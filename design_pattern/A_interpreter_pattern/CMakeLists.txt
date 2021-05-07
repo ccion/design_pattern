@@ -1,0 +1,3 @@
+project(interpreter_pattern)
+add_executable(interpreter_pattern interpreter_pattern.cpp )
+target_include_directories(interpreter_pattern PUBLIC "${interpreter_pattern_SOURCE_DIR}")

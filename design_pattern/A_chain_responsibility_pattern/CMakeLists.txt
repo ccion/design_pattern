@@ -1,0 +1,3 @@
+project(chain_responsibility_pattern)
+add_executable(chain_responsibility_pattern test_chain_responsibility.cpp chain_responsibility_pattern.cpp)
+target_include_directories(chain_responsibility_pattern PUBLIC "${chain_responsibility_pattern_SOURCE_DIR}")

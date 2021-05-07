@@ -1,0 +1,3 @@
+project(abstract_factory_pattern)
+add_executable(abstract_factory_pattern  abstract_factory_pattern.cpp)
+target_include_directories(abstract_factory_pattern PUBLIC "${abstract_factory_pattern_SOURCE_DIR}")
